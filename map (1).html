@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_de551ccd2d2734b67b903b173346992e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_de551ccd2d2734b67b903b173346992e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_de551ccd2d2734b67b903b173346992e = L.map(
+                "map_de551ccd2d2734b67b903b173346992e",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1cebd6609bce657c971510ee770cb8c6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1cebd6609bce657c971510ee770cb8c6.addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+            var marker_77f2be2726c59613b69f6fcde5778e81 = L.marker(
+                [28.464167, 76.893333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_65aaba924e6a9f962dc590473db36e81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf1150e76e87e9d202ca4a4015842e9b = $(`<div id="html_cf1150e76e87e9d202ca4a4015842e9b" style="width: 100.0%; height: 100.0%;">Sultanpur Bird Sanctuary, Haryana</div>`)[0];
+                popup_65aaba924e6a9f962dc590473db36e81.setContent(html_cf1150e76e87e9d202ca4a4015842e9b);
+            
+        
+
+        marker_77f2be2726c59613b69f6fcde5778e81.bindPopup(popup_65aaba924e6a9f962dc590473db36e81)
+        ;
+
+        
+    
+    
+            marker_77f2be2726c59613b69f6fcde5778e81.bindTooltip(
+                `<div>
+                     Haryana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ef5a208ed4125d7d76919964c93c8a0 = L.marker(
+                [22.511389, 70.057778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_5f8144e33ba1b070ac6652d60e1a3754 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2290eca00b033f1b91cc2b70fc87f78 = $(`<div id="html_e2290eca00b033f1b91cc2b70fc87f78" style="width: 100.0%; height: 100.0%;">Khijadiya Bird Sanctuary, Gujarat</div>`)[0];
+                popup_5f8144e33ba1b070ac6652d60e1a3754.setContent(html_e2290eca00b033f1b91cc2b70fc87f78);
+            
+        
+
+        marker_3ef5a208ed4125d7d76919964c93c8a0.bindPopup(popup_5f8144e33ba1b070ac6652d60e1a3754)
+        ;
+
+        
+    
+    
+            marker_3ef5a208ed4125d7d76919964c93c8a0.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d781a2e0f8b083c2d13b984bbac5d7ec = L.marker(
+                [22.823611, 72.022778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_f5daed41736845d799a7d94256a56576 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9fc73e6110b6fe0fed2dc89b208cfe3 = $(`<div id="html_f9fc73e6110b6fe0fed2dc89b208cfe3" style="width: 100.0%; height: 100.0%;">Nal Sarovar Bird Sanctuary, Gujarat</div>`)[0];
+                popup_f5daed41736845d799a7d94256a56576.setContent(html_f9fc73e6110b6fe0fed2dc89b208cfe3);
+            
+        
+
+        marker_d781a2e0f8b083c2d13b984bbac5d7ec.bindPopup(popup_f5daed41736845d799a7d94256a56576)
+        ;
+
+        
+    
+    
+            marker_d781a2e0f8b083c2d13b984bbac5d7ec.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3c9343f0e703b36c8774f5a38cc47bd = L.marker(
+                [21.716667, 73.583333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_405969484aa7a82990cde1c8a60293ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_178aebe82c36cc89f8bd49a488045f56 = $(`<div id="html_178aebe82c36cc89f8bd49a488045f56" style="width: 100.0%; height: 100.0%;">Shoolpaneshwar Wildlife Sanctuary, Gujarat</div>`)[0];
+                popup_405969484aa7a82990cde1c8a60293ec.setContent(html_178aebe82c36cc89f8bd49a488045f56);
+            
+        
+
+        marker_c3c9343f0e703b36c8774f5a38cc47bd.bindPopup(popup_405969484aa7a82990cde1c8a60293ec)
+        ;
+
+        
+    
+    
+            marker_c3c9343f0e703b36c8774f5a38cc47bd.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86544ff7b8bcbc0ab5ad9f53cc3522c6 = L.marker(
+                [23.633333, 68.833333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_1c72342dada107a253370af963c764cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ab3cee1c81abcb273fad529e79723b8 = $(`<div id="html_5ab3cee1c81abcb273fad529e79723b8" style="width: 100.0%; height: 100.0%;">Chhari-Dhand Wetland Conservation Reserve, Gujarat</div>`)[0];
+                popup_1c72342dada107a253370af963c764cd.setContent(html_5ab3cee1c81abcb273fad529e79723b8);
+            
+        
+
+        marker_86544ff7b8bcbc0ab5ad9f53cc3522c6.bindPopup(popup_1c72342dada107a253370af963c764cd)
+        ;
+
+        
+    
+    
+            marker_86544ff7b8bcbc0ab5ad9f53cc3522c6.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba6d37c6e227b4b7a5860e43c7713d12 = L.marker(
+                [23.883333, 69.8],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_710b0d0af60e7b0d319fbfb4b07e1ffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38fb49b835d415c92068c6296f90d300 = $(`<div id="html_38fb49b835d415c92068c6296f90d300" style="width: 100.0%; height: 100.0%;">Kutch Great Indian Bustard Sanctuary, Gujarat</div>`)[0];
+                popup_710b0d0af60e7b0d319fbfb4b07e1ffb.setContent(html_38fb49b835d415c92068c6296f90d300);
+            
+        
+
+        marker_ba6d37c6e227b4b7a5860e43c7713d12.bindPopup(popup_710b0d0af60e7b0d319fbfb4b07e1ffb)
+        ;
+
+        
+    
+    
+            marker_ba6d37c6e227b4b7a5860e43c7713d12.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ff15c8e99dbece63180fb45d9cc9f0f = L.marker(
+                [23.153889, 72.4875],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_ce961f27f22d5d4425d8e27b4e2173c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15ea63d13484fd900b7910facd0e0009 = $(`<div id="html_15ea63d13484fd900b7910facd0e0009" style="width: 100.0%; height: 100.0%;">Thol Lake Bird Sanctuary, Gujarat</div>`)[0];
+                popup_ce961f27f22d5d4425d8e27b4e2173c0.setContent(html_15ea63d13484fd900b7910facd0e0009);
+            
+        
+
+        marker_5ff15c8e99dbece63180fb45d9cc9f0f.bindPopup(popup_ce961f27f22d5d4425d8e27b4e2173c0)
+        ;
+
+        
+    
+    
+            marker_5ff15c8e99dbece63180fb45d9cc9f0f.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d4de5bd7485000849f036ff1f4c9014 = L.marker(
+                [21.636389, 69.624167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_f48908c78219fce8310c90da388a1abe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9306da9064d93de2d52f4b0aa56a6a2f = $(`<div id="html_9306da9064d93de2d52f4b0aa56a6a2f" style="width: 100.0%; height: 100.0%;">Porbandar Bird Sanctuary, Gujarat</div>`)[0];
+                popup_f48908c78219fce8310c90da388a1abe.setContent(html_9306da9064d93de2d52f4b0aa56a6a2f);
+            
+        
+
+        marker_8d4de5bd7485000849f036ff1f4c9014.bindPopup(popup_f48908c78219fce8310c90da388a1abe)
+        ;
+
+        
+    
+    
+            marker_8d4de5bd7485000849f036ff1f4c9014.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e2d13d6658d0d926dc8f024f3d918f0 = L.marker(
+                [23.466667, 68.833333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_18a975a0fd0973d8dc7f50fe1f5668d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2ac59cc2aa774a53f1b2c5621d1019e = $(`<div id="html_a2ac59cc2aa774a53f1b2c5621d1019e" style="width: 100.0%; height: 100.0%;">Naliya Grassland of Kutch, Gujarat</div>`)[0];
+                popup_18a975a0fd0973d8dc7f50fe1f5668d6.setContent(html_a2ac59cc2aa774a53f1b2c5621d1019e);
+            
+        
+
+        marker_1e2d13d6658d0d926dc8f024f3d918f0.bindPopup(popup_18a975a0fd0973d8dc7f50fe1f5668d6)
+        ;
+
+        
+    
+    
+            marker_1e2d13d6658d0d926dc8f024f3d918f0.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99cb897fc717114db55aeb1ff7f0540c = L.marker(
+                [21.216667, 70.816667],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_8c32353155c083c7591abb357c1582e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6936dc2ea53a618e14b46149508c8831 = $(`<div id="html_6936dc2ea53a618e14b46149508c8831" style="width: 100.0%; height: 100.0%;">Sasan Gir Sanctuary, Gujarat</div>`)[0];
+                popup_8c32353155c083c7591abb357c1582e5.setContent(html_6936dc2ea53a618e14b46149508c8831);
+            
+        
+
+        marker_99cb897fc717114db55aeb1ff7f0540c.bindPopup(popup_8c32353155c083c7591abb357c1582e5)
+        ;
+
+        
+    
+    
+            marker_99cb897fc717114db55aeb1ff7f0540c.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d942bbd14927cfc16d46a0614954dbdf = L.marker(
+                [27.102222, 95.2575],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_86ae7692c0e76273a19d4b82d1c51377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fc03543462224cee2581509e0c26f7e = $(`<div id="html_2fc03543462224cee2581509e0c26f7e" style="width: 100.0%; height: 100.0%;">Pani Dihing Bird Sanctuary, Assam</div>`)[0];
+                popup_86ae7692c0e76273a19d4b82d1c51377.setContent(html_2fc03543462224cee2581509e0c26f7e);
+            
+        
+
+        marker_d942bbd14927cfc16d46a0614954dbdf.bindPopup(popup_86ae7692c0e76273a19d4b82d1c51377)
+        ;
+
+        
+    
+    
+            marker_d942bbd14927cfc16d46a0614954dbdf.bindTooltip(
+                `<div>
+                     Assam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfb86f99c9103e42baed744edcddac78 = L.marker(
+                [26.121389, 91.650833],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_103ae1d46bc8ac67a9a8f6a084c9a5da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f24f88f7a5c0204d18c5d75437510200 = $(`<div id="html_f24f88f7a5c0204d18c5d75437510200" style="width: 100.0%; height: 100.0%;">Deepor Beel Wildlife Sanctuary, Assam</div>`)[0];
+                popup_103ae1d46bc8ac67a9a8f6a084c9a5da.setContent(html_f24f88f7a5c0204d18c5d75437510200);
+            
+        
+
+        marker_dfb86f99c9103e42baed744edcddac78.bindPopup(popup_103ae1d46bc8ac67a9a8f6a084c9a5da)
+        ;
+
+        
+    
+    
+            marker_dfb86f99c9103e42baed744edcddac78.bindTooltip(
+                `<div>
+                     Assam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf6d0fef793829e13647b32b48ecbc50 = L.marker(
+                [26.650833, 90.969722],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_23b5d71e63e1d8f99842a1abd1041d89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ddcae69d594038793c7e98767b96196 = $(`<div id="html_1ddcae69d594038793c7e98767b96196" style="width: 100.0%; height: 100.0%;">Manas Wildlife Sanctuary, Assam</div>`)[0];
+                popup_23b5d71e63e1d8f99842a1abd1041d89.setContent(html_1ddcae69d594038793c7e98767b96196);
+            
+        
+
+        marker_cf6d0fef793829e13647b32b48ecbc50.bindPopup(popup_23b5d71e63e1d8f99842a1abd1041d89)
+        ;
+
+        
+    
+    
+            marker_cf6d0fef793829e13647b32b48ecbc50.bindTooltip(
+                `<div>
+                     Assam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed9ed9f458d799ab60515051135a37e0 = L.marker(
+                [24.866667, 92.5],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_98f65d495e895bc4ab71e89a3f7bc1da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42bfa47ca43a1d3e935bb5e19de06e24 = $(`<div id="html_42bfa47ca43a1d3e935bb5e19de06e24" style="width: 100.0%; height: 100.0%;">Son Beel, Assam</div>`)[0];
+                popup_98f65d495e895bc4ab71e89a3f7bc1da.setContent(html_42bfa47ca43a1d3e935bb5e19de06e24);
+            
+        
+
+        marker_ed9ed9f458d799ab60515051135a37e0.bindPopup(popup_98f65d495e895bc4ab71e89a3f7bc1da)
+        ;
+
+        
+    
+    
+            marker_ed9ed9f458d799ab60515051135a37e0.bindTooltip(
+                `<div>
+                     Assam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea6486b1cd6277b4e237fce538342b1c = L.marker(
+                [26.12, 91.65],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_4c122c8689c02f719139515566b98fb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d3934e2c1d9a29c0bd1ab4f5ecb127f = $(`<div id="html_7d3934e2c1d9a29c0bd1ab4f5ecb127f" style="width: 100.0%; height: 100.0%;">Dipor Bil, Assam</div>`)[0];
+                popup_4c122c8689c02f719139515566b98fb9.setContent(html_7d3934e2c1d9a29c0bd1ab4f5ecb127f);
+            
+        
+
+        marker_ea6486b1cd6277b4e237fce538342b1c.bindPopup(popup_4c122c8689c02f719139515566b98fb9)
+        ;
+
+        
+    
+    
+            marker_ea6486b1cd6277b4e237fce538342b1c.bindTooltip(
+                `<div>
+                     Assam
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fb2e137a115f593eb442c8b6f1e0ca1 = L.marker(
+                [26.862778, 88.763611],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_0d4b478efc54fc4c3872c8c686f107e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9faccd15778b488025f889bce4cfa8c8 = $(`<div id="html_9faccd15778b488025f889bce4cfa8c8" style="width: 100.0%; height: 100.0%;">Chapramari Wildlife Sanctuary, West Bengal</div>`)[0];
+                popup_0d4b478efc54fc4c3872c8c686f107e8.setContent(html_9faccd15778b488025f889bce4cfa8c8);
+            
+        
+
+        marker_3fb2e137a115f593eb442c8b6f1e0ca1.bindPopup(popup_0d4b478efc54fc4c3872c8c686f107e8)
+        ;
+
+        
+    
+    
+            marker_3fb2e137a115f593eb442c8b6f1e0ca1.bindTooltip(
+                `<div>
+                     West Bengal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c4e8d94be7b16a3367bea9edbda40dd = L.marker(
+                [19.839444, 85.526111],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_78e26ed85d900153af2de7347e4f29de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7ea31892798cf5a27df2790c034d154 = $(`<div id="html_a7ea31892798cf5a27df2790c034d154" style="width: 100.0%; height: 100.0%;">Mangalajodi Wetlands, Odisha</div>`)[0];
+                popup_78e26ed85d900153af2de7347e4f29de.setContent(html_a7ea31892798cf5a27df2790c034d154);
+            
+        
+
+        marker_7c4e8d94be7b16a3367bea9edbda40dd.bindPopup(popup_78e26ed85d900153af2de7347e4f29de)
+        ;
+
+        
+    
+    
+            marker_7c4e8d94be7b16a3367bea9edbda40dd.bindTooltip(
+                `<div>
+                     Odisha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe0ac973933fc9f499e6b70f2f815a1a = L.marker(
+                [20.720278, 86.869167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_3a6504af75e6b4710809af14ca8a76d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26af2f4101fc0930424793e79e0c01eb = $(`<div id="html_26af2f4101fc0930424793e79e0c01eb" style="width: 100.0%; height: 100.0%;">Bhitarkanika National Park, Odisha</div>`)[0];
+                popup_3a6504af75e6b4710809af14ca8a76d4.setContent(html_26af2f4101fc0930424793e79e0c01eb);
+            
+        
+
+        marker_fe0ac973933fc9f499e6b70f2f815a1a.bindPopup(popup_3a6504af75e6b4710809af14ca8a76d4)
+        ;
+
+        
+    
+    
+            marker_fe0ac973933fc9f499e6b70f2f815a1a.bindTooltip(
+                `<div>
+                     Odisha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9fbc0cd6554d087ff77d188cf3d7afd = L.marker(
+                [16.617222, 81.209167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_9c2e4b9d76b01b50cb940f3a17b851d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8c6dfae2a5f8a7a218993f5f3430c84 = $(`<div id="html_b8c6dfae2a5f8a7a218993f5f3430c84" style="width: 100.0%; height: 100.0%;">Kolleru Lake Wildlife Sanctuary, Andhra Pradesh</div>`)[0];
+                popup_9c2e4b9d76b01b50cb940f3a17b851d5.setContent(html_b8c6dfae2a5f8a7a218993f5f3430c84);
+            
+        
+
+        marker_e9fbc0cd6554d087ff77d188cf3d7afd.bindPopup(popup_9c2e4b9d76b01b50cb940f3a17b851d5)
+        ;
+
+        
+    
+    
+            marker_e9fbc0cd6554d087ff77d188cf3d7afd.bindTooltip(
+                `<div>
+                     Andhra Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_347408d48fa124fb9b2b06cd966a52ff = L.marker(
+                [13.553333, 80.173333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_04e841df464f63054ef668921b6bf127 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac4c2876c95e7e53d78e0c6f6adbeb94 = $(`<div id="html_ac4c2876c95e7e53d78e0c6f6adbeb94" style="width: 100.0%; height: 100.0%;">Pulicat Lake Bird Sanctuary, Andhra Pradesh</div>`)[0];
+                popup_04e841df464f63054ef668921b6bf127.setContent(html_ac4c2876c95e7e53d78e0c6f6adbeb94);
+            
+        
+
+        marker_347408d48fa124fb9b2b06cd966a52ff.bindPopup(popup_04e841df464f63054ef668921b6bf127)
+        ;
+
+        
+    
+    
+            marker_347408d48fa124fb9b2b06cd966a52ff.bindTooltip(
+                `<div>
+                     Andhra Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c09e02b18912dad592f7d486548fe63f = L.marker(
+                [15.861111, 78.156667],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_ea82f83a82c8b23e49e22fa18dc7c185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b268ddb7997aa5e02555598d1133dd88 = $(`<div id="html_b268ddb7997aa5e02555598d1133dd88" style="width: 100.0%; height: 100.0%;">Rollapadu Wildlife Sanctuary, Andhra Pradesh</div>`)[0];
+                popup_ea82f83a82c8b23e49e22fa18dc7c185.setContent(html_b268ddb7997aa5e02555598d1133dd88);
+            
+        
+
+        marker_c09e02b18912dad592f7d486548fe63f.bindPopup(popup_ea82f83a82c8b23e49e22fa18dc7c185)
+        ;
+
+        
+    
+    
+            marker_c09e02b18912dad592f7d486548fe63f.bindTooltip(
+                `<div>
+                     Andhra Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_055e4d6d7848cf7f0d37a0affacd6686 = L.marker(
+                [13.005556, 80.255],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_ffdd8ff9dc6d4ffe58e9423cee70ac1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2e2181c822626c6bef48369edf71175 = $(`<div id="html_d2e2181c822626c6bef48369edf71175" style="width: 100.0%; height: 100.0%;">Adyar Wetlands, Tamil Nadu</div>`)[0];
+                popup_ffdd8ff9dc6d4ffe58e9423cee70ac1a.setContent(html_d2e2181c822626c6bef48369edf71175);
+            
+        
+
+        marker_055e4d6d7848cf7f0d37a0affacd6686.bindPopup(popup_ffdd8ff9dc6d4ffe58e9423cee70ac1a)
+        ;
+
+        
+    
+    
+            marker_055e4d6d7848cf7f0d37a0affacd6686.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3de2b16f9ef00f8076552d99c73aa1ca = L.marker(
+                [12.550556, 79.859444],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_7427181d7d618bb83bdd74bfc09882e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_538182b6a08365889f765aa1cffdda0c = $(`<div id="html_538182b6a08365889f765aa1cffdda0c" style="width: 100.0%; height: 100.0%;">Vedanthangal Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_7427181d7d618bb83bdd74bfc09882e1.setContent(html_538182b6a08365889f765aa1cffdda0c);
+            
+        
+
+        marker_3de2b16f9ef00f8076552d99c73aa1ca.bindPopup(popup_7427181d7d618bb83bdd74bfc09882e1)
+        ;
+
+        
+    
+    
+            marker_3de2b16f9ef00f8076552d99c73aa1ca.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e088f980fab6ec873b5525b7b11cc7b5 = L.marker(
+                [12.610278, 79.869167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_bcee1648af965e45175e0e093fb9782b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22db1fe5e7e04bf7a55cd8d8a839e3c7 = $(`<div id="html_22db1fe5e7e04bf7a55cd8d8a839e3c7" style="width: 100.0%; height: 100.0%;">Karikili Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_bcee1648af965e45175e0e093fb9782b.setContent(html_22db1fe5e7e04bf7a55cd8d8a839e3c7);
+            
+        
+
+        marker_e088f980fab6ec873b5525b7b11cc7b5.bindPopup(popup_bcee1648af965e45175e0e093fb9782b)
+        ;
+
+        
+    
+    
+            marker_e088f980fab6ec873b5525b7b11cc7b5.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bf9020f8aa364552877fb3abf4ef4b7 = L.marker(
+                [9.252778, 78.345833],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_41112bd7a346a258abacb067aa37a768 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a8909fef1ca768c3b486a908454f0df = $(`<div id="html_2a8909fef1ca768c3b486a908454f0df" style="width: 100.0%; height: 100.0%;">Chitrangudi Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_41112bd7a346a258abacb067aa37a768.setContent(html_2a8909fef1ca768c3b486a908454f0df);
+            
+        
+
+        marker_9bf9020f8aa364552877fb3abf4ef4b7.bindPopup(popup_41112bd7a346a258abacb067aa37a768)
+        ;
+
+        
+    
+    
+            marker_9bf9020f8aa364552877fb3abf4ef4b7.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67809286ddbe3370b451c344391972ad = L.marker(
+                [8.14, 77.46],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_37eccd4b76549f4bea86ad328071f34d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89726a483b4803d88b37ced97eceef88 = $(`<div id="html_89726a483b4803d88b37ced97eceef88" style="width: 100.0%; height: 100.0%;">Suchindram Theroor Wetland Complex, Tamil Nadu</div>`)[0];
+                popup_37eccd4b76549f4bea86ad328071f34d.setContent(html_89726a483b4803d88b37ced97eceef88);
+            
+        
+
+        marker_67809286ddbe3370b451c344391972ad.bindPopup(popup_37eccd4b76549f4bea86ad328071f34d)
+        ;
+
+        
+    
+    
+            marker_67809286ddbe3370b451c344391972ad.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76de5bd4125c34a13a0e9d0f791db591 = L.marker(
+                [10.71, 79.32],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_0bbbc6652c04025e41b667b9cd10eace = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df9c7f4931c6e2e64eaae5bf594c416b = $(`<div id="html_df9c7f4931c6e2e64eaae5bf594c416b" style="width: 100.0%; height: 100.0%;">Vaduvur Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_0bbbc6652c04025e41b667b9cd10eace.setContent(html_df9c7f4931c6e2e64eaae5bf594c416b);
+            
+        
+
+        marker_76de5bd4125c34a13a0e9d0f791db591.bindPopup(popup_0bbbc6652c04025e41b667b9cd10eace)
+        ;
+
+        
+    
+    
+            marker_76de5bd4125c34a13a0e9d0f791db591.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47455f913a60206dbc23a62fffd8df8a = L.marker(
+                [22.455278, 88.362222],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_09073ae5c1e9c90268f60afe3f64e3f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db7aac8710cc0ecf773e48835a99a959 = $(`<div id="html_db7aac8710cc0ecf773e48835a99a959" style="width: 100.0%; height: 100.0%;">Chintamani Kar Bird Sanctuary, West Bengal</div>`)[0];
+                popup_09073ae5c1e9c90268f60afe3f64e3f1.setContent(html_db7aac8710cc0ecf773e48835a99a959);
+            
+        
+
+        marker_47455f913a60206dbc23a62fffd8df8a.bindPopup(popup_09073ae5c1e9c90268f60afe3f64e3f1)
+        ;
+
+        
+    
+    
+            marker_47455f913a60206dbc23a62fffd8df8a.bindTooltip(
+                `<div>
+                     West Bengal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56e6d167b4a2498b670251af4bd6594f = L.marker(
+                [26.946111, 80.639444],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_25204ad38ac7888bcf7082372710020e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49dad4de0f23dbb9cfef7d5d8af87501 = $(`<div id="html_49dad4de0f23dbb9cfef7d5d8af87501" style="width: 100.0%; height: 100.0%;">Nawabganj Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_25204ad38ac7888bcf7082372710020e.setContent(html_49dad4de0f23dbb9cfef7d5d8af87501);
+            
+        
+
+        marker_56e6d167b4a2498b670251af4bd6594f.bindPopup(popup_25204ad38ac7888bcf7082372710020e)
+        ;
+
+        
+    
+    
+            marker_56e6d167b4a2498b670251af4bd6594f.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1618fd87baa8a488cec0ab10dec52e81 = L.marker(
+                [27.529167, 79.456111],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_b08fd63482db9e38654104f4234f62da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dc92eeabb97860db8559c38c656714e = $(`<div id="html_1dc92eeabb97860db8559c38c656714e" style="width: 100.0%; height: 100.0%;">Patna Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_b08fd63482db9e38654104f4234f62da.setContent(html_1dc92eeabb97860db8559c38c656714e);
+            
+        
+
+        marker_1618fd87baa8a488cec0ab10dec52e81.bindPopup(popup_b08fd63482db9e38654104f4234f62da)
+        ;
+
+        
+    
+    
+            marker_1618fd87baa8a488cec0ab10dec52e81.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffeb93035e0ba15fe204ea762ad121af = L.marker(
+                [27.27, 79.978333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_bb1c5bd0e27b77e88e00226f9bab96bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91b6ed51b1ae68b5f591a4041480c982 = $(`<div id="html_91b6ed51b1ae68b5f591a4041480c982" style="width: 100.0%; height: 100.0%;">Sandi Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_bb1c5bd0e27b77e88e00226f9bab96bb.setContent(html_91b6ed51b1ae68b5f591a4041480c982);
+            
+        
+
+        marker_ffeb93035e0ba15fe204ea762ad121af.bindPopup(popup_bb1c5bd0e27b77e88e00226f9bab96bb)
+        ;
+
+        
+    
+    
+            marker_ffeb93035e0ba15fe204ea762ad121af.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ddb69fac62cde650cf40f6fac7a5e31 = L.marker(
+                [26.779167, 79.093889],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_c11dc937b0bcfa1b8b5575eaae2de504 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e76066fbf9d2f827e6446dee949e76ea = $(`<div id="html_e76066fbf9d2f827e6446dee949e76ea" style="width: 100.0%; height: 100.0%;">Sarsai Nawar Wetland, Uttar Pradesh</div>`)[0];
+                popup_c11dc937b0bcfa1b8b5575eaae2de504.setContent(html_e76066fbf9d2f827e6446dee949e76ea);
+            
+        
+
+        marker_4ddb69fac62cde650cf40f6fac7a5e31.bindPopup(popup_c11dc937b0bcfa1b8b5575eaae2de504)
+        ;
+
+        
+    
+    
+            marker_4ddb69fac62cde650cf40f6fac7a5e31.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88bd997c016ed88417bfa875f938b14f = L.marker(
+                [27.178889, 77.849167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_302293c33dd8e792b1c1018bec349ba0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b30883df96ba72fcb76d663f555e5081 = $(`<div id="html_b30883df96ba72fcb76d663f555e5081" style="width: 100.0%; height: 100.0%;">Sur Sarovar Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_302293c33dd8e792b1c1018bec349ba0.setContent(html_b30883df96ba72fcb76d663f555e5081);
+            
+        
+
+        marker_88bd997c016ed88417bfa875f938b14f.bindPopup(popup_302293c33dd8e792b1c1018bec349ba0)
+        ;
+
+        
+    
+    
+            marker_88bd997c016ed88417bfa875f938b14f.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ea65d65f24a53af80c7aec5b62ef671 = L.marker(
+                [27.164444, 77.527778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_0fc93521dce5700612e0dcb6b9baa599 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2635fa556f73d4c0726ce7c75f8a865d = $(`<div id="html_2635fa556f73d4c0726ce7c75f8a865d" style="width: 100.0%; height: 100.0%;">Keoladeo Ghana Bird Sanctuary, Rajasthan</div>`)[0];
+                popup_0fc93521dce5700612e0dcb6b9baa599.setContent(html_2635fa556f73d4c0726ce7c75f8a865d);
+            
+        
+
+        marker_8ea65d65f24a53af80c7aec5b62ef671.bindPopup(popup_0fc93521dce5700612e0dcb6b9baa599)
+        ;
+
+        
+    
+    
+            marker_8ea65d65f24a53af80c7aec5b62ef671.bindTooltip(
+                `<div>
+                     Rajasthan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_135330850e647a0fe328acb41f3da402 = L.marker(
+                [26.83, 83.076667],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_450d12e6534e8b2af6e409b554b165a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3156fefa19e95e9736a11f55946a6dad = $(`<div id="html_3156fefa19e95e9736a11f55946a6dad" style="width: 100.0%; height: 100.0%;">Bakhira Wildlife Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_450d12e6534e8b2af6e409b554b165a1.setContent(html_3156fefa19e95e9736a11f55946a6dad);
+            
+        
+
+        marker_135330850e647a0fe328acb41f3da402.bindPopup(popup_450d12e6534e8b2af6e409b554b165a1)
+        ;
+
+        
+    
+    
+            marker_135330850e647a0fe328acb41f3da402.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ad706e7804ae8d8de95f5c8639cdeb2 = L.marker(
+                [26.916667, 79.716667],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_644fb17f6030e142a2ff8e74ce929c56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0664757ee7ed52953314a4a4475aea0 = $(`<div id="html_c0664757ee7ed52953314a4a4475aea0" style="width: 100.0%; height: 100.0%;">Lakh Bahosi Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_644fb17f6030e142a2ff8e74ce929c56.setContent(html_c0664757ee7ed52953314a4a4475aea0);
+            
+        
+
+        marker_0ad706e7804ae8d8de95f5c8639cdeb2.bindPopup(popup_644fb17f6030e142a2ff8e74ce929c56)
+        ;
+
+        
+    
+    
+            marker_0ad706e7804ae8d8de95f5c8639cdeb2.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caa85f115c3609c740a48e70a2ca4644 = L.marker(
+                [28.538056, 77.321389],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_21d63f83923cb42dffb0d710ec7fccf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28921f75042fac81bdf372d7232f9b3a = $(`<div id="html_28921f75042fac81bdf372d7232f9b3a" style="width: 100.0%; height: 100.0%;">Okhla Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_21d63f83923cb42dffb0d710ec7fccf3.setContent(html_28921f75042fac81bdf372d7232f9b3a);
+            
+        
+
+        marker_caa85f115c3609c740a48e70a2ca4644.bindPopup(popup_21d63f83923cb42dffb0d710ec7fccf3)
+        ;
+
+        
+    
+    
+            marker_caa85f115c3609c740a48e70a2ca4644.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2cb1a0a59ff2602154a936316348f40 = L.marker(
+                [31.921667, 76.055556],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_778bbddd9f4e7c9fb1cb80da8d99eda0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e8ea7e0263390493835e9107a5710a2 = $(`<div id="html_6e8ea7e0263390493835e9107a5710a2" style="width: 100.0%; height: 100.0%;">Pong Dam Wildlife Sanctuary, Himachal Pradesh</div>`)[0];
+                popup_778bbddd9f4e7c9fb1cb80da8d99eda0.setContent(html_6e8ea7e0263390493835e9107a5710a2);
+            
+        
+
+        marker_b2cb1a0a59ff2602154a936316348f40.bindPopup(popup_778bbddd9f4e7c9fb1cb80da8d99eda0)
+        ;
+
+        
+    
+    
+            marker_b2cb1a0a59ff2602154a936316348f40.bindTooltip(
+                `<div>
+                     Himachal Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_543cfc1b0c0858367b004641a6275c9e = L.marker(
+                [31.143333, 74.9625],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_1640ad4323ff4f44d1fac68ec653e589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_315262a994410e22e24abcd3174d93bd = $(`<div id="html_315262a994410e22e24abcd3174d93bd" style="width: 100.0%; height: 100.0%;">Harike Wetland and Bird Sanctuary, Punjab</div>`)[0];
+                popup_1640ad4323ff4f44d1fac68ec653e589.setContent(html_315262a994410e22e24abcd3174d93bd);
+            
+        
+
+        marker_543cfc1b0c0858367b004641a6275c9e.bindPopup(popup_1640ad4323ff4f44d1fac68ec653e589)
+        ;
+
+        
+    
+    
+            marker_543cfc1b0c0858367b004641a6275c9e.bindTooltip(
+                `<div>
+                     Punjab
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0885ca013e3bfeaf05760a6801b1dbd = L.marker(
+                [31.020278, 76.521111],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_c1244cacd86624033bca785ac62c74ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4903b7719e7058b50ff0ab34a30811fb = $(`<div id="html_4903b7719e7058b50ff0ab34a30811fb" style="width: 100.0%; height: 100.0%;">Ropar Wetland, Punjab</div>`)[0];
+                popup_c1244cacd86624033bca785ac62c74ec.setContent(html_4903b7719e7058b50ff0ab34a30811fb);
+            
+        
+
+        marker_b0885ca013e3bfeaf05760a6801b1dbd.bindPopup(popup_c1244cacd86624033bca785ac62c74ec)
+        ;
+
+        
+    
+    
+            marker_b0885ca013e3bfeaf05760a6801b1dbd.bindTooltip(
+                `<div>
+                     Punjab
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35318a6dcdf38aadea627eabec850312 = L.marker(
+                [25.6, 86.2],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_116026549d2f249713a20bd733cc4367 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad103948228804443d4c7024df1f96f3 = $(`<div id="html_ad103948228804443d4c7024df1f96f3" style="width: 100.0%; height: 100.0%;">Kanwar Taal Bird Sanctuary, Bihar</div>`)[0];
+                popup_116026549d2f249713a20bd733cc4367.setContent(html_ad103948228804443d4c7024df1f96f3);
+            
+        
+
+        marker_35318a6dcdf38aadea627eabec850312.bindPopup(popup_116026549d2f249713a20bd733cc4367)
+        ;
+
+        
+    
+    
+            marker_35318a6dcdf38aadea627eabec850312.bindTooltip(
+                `<div>
+                     Bihar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f094f342313a617b2adf15e68f786f29 = L.marker(
+                [26.51, 87.13],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_aef7ae2c6b990028e26edca061ba4e28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c5456593d40e70853245d148f121892 = $(`<div id="html_0c5456593d40e70853245d148f121892" style="width: 100.0%; height: 100.0%;">Udaypur Wildlife Sanctuary, Bihar</div>`)[0];
+                popup_aef7ae2c6b990028e26edca061ba4e28.setContent(html_0c5456593d40e70853245d148f121892);
+            
+        
+
+        marker_f094f342313a617b2adf15e68f786f29.bindPopup(popup_aef7ae2c6b990028e26edca061ba4e28)
+        ;
+
+        
+    
+    
+            marker_f094f342313a617b2adf15e68f786f29.bindTooltip(
+                `<div>
+                     Bihar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_548d123ce288b3d99cc05afb9d884975 = L.marker(
+                [22.817778, 72.034167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_f17cd0baa8fd2cce6509223300ab5c26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ea9c3af5dfb7aeaae5b9b8f7bc1c15f = $(`<div id="html_2ea9c3af5dfb7aeaae5b9b8f7bc1c15f" style="width: 100.0%; height: 100.0%;">Nalsarovar Bird Sanctuary, Gujarat</div>`)[0];
+                popup_f17cd0baa8fd2cce6509223300ab5c26.setContent(html_2ea9c3af5dfb7aeaae5b9b8f7bc1c15f);
+            
+        
+
+        marker_548d123ce288b3d99cc05afb9d884975.bindPopup(popup_f17cd0baa8fd2cce6509223300ab5c26)
+        ;
+
+        
+    
+    
+            marker_548d123ce288b3d99cc05afb9d884975.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b9abca10428265b3d334b6c10243260 = L.marker(
+                [23.153889, 72.486944],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_3e75cfdec9826fa943f8253751c4201c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2844fa1305eeb668066a9c23d86b75e5 = $(`<div id="html_2844fa1305eeb668066a9c23d86b75e5" style="width: 100.0%; height: 100.0%;">Thol Wildlife Sanctuary, Gujarat</div>`)[0];
+                popup_3e75cfdec9826fa943f8253751c4201c.setContent(html_2844fa1305eeb668066a9c23d86b75e5);
+            
+        
+
+        marker_9b9abca10428265b3d334b6c10243260.bindPopup(popup_3e75cfdec9826fa943f8253751c4201c)
+        ;
+
+        
+    
+    
+            marker_9b9abca10428265b3d334b6c10243260.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0b36799364e0bb4aa393a64ba2bcf9d = L.marker(
+                [21.82, 72.18],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_8176fe3f4aac9096dde78eb29b9825cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4902b234ab0b791581e2fec739327ba1 = $(`<div id="html_4902b234ab0b791581e2fec739327ba1" style="width: 100.0%; height: 100.0%;">Velavadar National Park, Gujarat</div>`)[0];
+                popup_8176fe3f4aac9096dde78eb29b9825cd.setContent(html_4902b234ab0b791581e2fec739327ba1);
+            
+        
+
+        marker_c0b36799364e0bb4aa393a64ba2bcf9d.bindPopup(popup_8176fe3f4aac9096dde78eb29b9825cd)
+        ;
+
+        
+    
+    
+            marker_c0b36799364e0bb4aa393a64ba2bcf9d.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3fba392ce52dd0297ad51703418b0d7 = L.marker(
+                [22.3675, 73.812778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_9b24744f82fa964b8fffa880d0b6bf94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d953dddd3060fa8c35d806a2f116c429 = $(`<div id="html_d953dddd3060fa8c35d806a2f116c429" style="width: 100.0%; height: 100.0%;">Jambughoda Wildlife Sanctuary, Gujarat</div>`)[0];
+                popup_9b24744f82fa964b8fffa880d0b6bf94.setContent(html_d953dddd3060fa8c35d806a2f116c429);
+            
+        
+
+        marker_b3fba392ce52dd0297ad51703418b0d7.bindPopup(popup_9b24744f82fa964b8fffa880d0b6bf94)
+        ;
+
+        
+    
+    
+            marker_b3fba392ce52dd0297ad51703418b0d7.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6c194f7277684e5e95cc1314a747240 = L.marker(
+                [25.7925, 78.215],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_03b4b6e791b722b3702e7156d5c5dea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1b744b5f21235226420fa9b14fc3713 = $(`<div id="html_a1b744b5f21235226420fa9b14fc3713" style="width: 100.0%; height: 100.0%;">Ghatigaon Wildlife Sanctuary, Madhya Pradesh</div>`)[0];
+                popup_03b4b6e791b722b3702e7156d5c5dea3.setContent(html_a1b744b5f21235226420fa9b14fc3713);
+            
+        
+
+        marker_d6c194f7277684e5e95cc1314a747240.bindPopup(popup_03b4b6e791b722b3702e7156d5c5dea3)
+        ;
+
+        
+    
+    
+            marker_d6c194f7277684e5e95cc1314a747240.bindTooltip(
+                `<div>
+                     Madhya Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c37574d3bd96f761e276c9b33cfe9fdc = L.marker(
+                [18.509194, 73.479833],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_8778b1dcbe0df8a62f7e1f621cca856c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab0d73630a0da6d3d8398cf77d3785cf = $(`<div id="html_ab0d73630a0da6d3d8398cf77d3785cf" style="width: 100.0%; height: 100.0%;">Tamhini Bird Sanctuary, Maharashtra</div>`)[0];
+                popup_8778b1dcbe0df8a62f7e1f621cca856c.setContent(html_ab0d73630a0da6d3d8398cf77d3785cf);
+            
+        
+
+        marker_c37574d3bd96f761e276c9b33cfe9fdc.bindPopup(popup_8778b1dcbe0df8a62f7e1f621cca856c)
+        ;
+
+        
+    
+    
+            marker_c37574d3bd96f761e276c9b33cfe9fdc.bindTooltip(
+                `<div>
+                     Maharashtra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb516a7c5ddd56006804ffc7a6654276 = L.marker(
+                [18.386111, 73.072778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_adf5824cc2f34b3e2b62c32e02447533 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ef6229d32e96ba9062d567b3e427206 = $(`<div id="html_7ef6229d32e96ba9062d567b3e427206" style="width: 100.0%; height: 100.0%;">Phansad Wildlife Sanctuary (Bird Sanctuary), Maharashtra</div>`)[0];
+                popup_adf5824cc2f34b3e2b62c32e02447533.setContent(html_7ef6229d32e96ba9062d567b3e427206);
+            
+        
+
+        marker_cb516a7c5ddd56006804ffc7a6654276.bindPopup(popup_adf5824cc2f34b3e2b62c32e02447533)
+        ;
+
+        
+    
+    
+            marker_cb516a7c5ddd56006804ffc7a6654276.bindTooltip(
+                `<div>
+                     Maharashtra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_733bc727a296f956edde205b14595bf0 = L.marker(
+                [26.945556, 80.6375],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_61f6b1fc2f917fc72007322a8b02263b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f750a4c9c1950947df0a6de7c1152ba = $(`<div id="html_8f750a4c9c1950947df0a6de7c1152ba" style="width: 100.0%; height: 100.0%;">Nawabganj Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_61f6b1fc2f917fc72007322a8b02263b.setContent(html_8f750a4c9c1950947df0a6de7c1152ba);
+            
+        
+
+        marker_733bc727a296f956edde205b14595bf0.bindPopup(popup_61f6b1fc2f917fc72007322a8b02263b)
+        ;
+
+        
+    
+    
+            marker_733bc727a296f956edde205b14595bf0.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a6ab5f8760a2d2a696206591ee02be4 = L.marker(
+                [27.040833, 79.437778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_500c1812606a738242d676b94aed467b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e824cbbf78125b1a53a121eda8c9d0 = $(`<div id="html_f7e824cbbf78125b1a53a121eda8c9d0" style="width: 100.0%; height: 100.0%;">Saman Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_500c1812606a738242d676b94aed467b.setContent(html_f7e824cbbf78125b1a53a121eda8c9d0);
+            
+        
+
+        marker_6a6ab5f8760a2d2a696206591ee02be4.bindPopup(popup_500c1812606a738242d676b94aed467b)
+        ;
+
+        
+    
+    
+            marker_6a6ab5f8760a2d2a696206591ee02be4.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_564615fdadc512721624c08b0bba19e0 = L.marker(
+                [25.84, 81.290556],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_d98520d7f6ef955d1bc343c81b233e6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dcb9bddb265738a4ce2a1374c545665 = $(`<div id="html_4dcb9bddb265738a4ce2a1374c545665" style="width: 100.0%; height: 100.0%;">Samaspur Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_d98520d7f6ef955d1bc343c81b233e6a.setContent(html_4dcb9bddb265738a4ce2a1374c545665);
+            
+        
+
+        marker_564615fdadc512721624c08b0bba19e0.bindPopup(popup_d98520d7f6ef955d1bc343c81b233e6a)
+        ;
+
+        
+    
+    
+            marker_564615fdadc512721624c08b0bba19e0.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81a51a93ab6de6ddc88969504fa021e2 = L.marker(
+                [27.269444, 79.978333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_03a5a3b8ec2add5a5699a84427736e27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e589c9b837a0a66b6339a184e02bb0d = $(`<div id="html_3e589c9b837a0a66b6339a184e02bb0d" style="width: 100.0%; height: 100.0%;">Sandi Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_03a5a3b8ec2add5a5699a84427736e27.setContent(html_3e589c9b837a0a66b6339a184e02bb0d);
+            
+        
+
+        marker_81a51a93ab6de6ddc88969504fa021e2.bindPopup(popup_03a5a3b8ec2add5a5699a84427736e27)
+        ;
+
+        
+    
+    
+            marker_81a51a93ab6de6ddc88969504fa021e2.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2e71c2b180517f02bd3dab29c2dbe5c = L.marker(
+                [27.179722, 77.849444],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_d939b3f19316702ca1d167f21807a9d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b95cb20739f9e74453d21dfe1bd2e37f = $(`<div id="html_b95cb20739f9e74453d21dfe1bd2e37f" style="width: 100.0%; height: 100.0%;">Sur Sarovar Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_d939b3f19316702ca1d167f21807a9d2.setContent(html_b95cb20739f9e74453d21dfe1bd2e37f);
+            
+        
+
+        marker_e2e71c2b180517f02bd3dab29c2dbe5c.bindPopup(popup_d939b3f19316702ca1d167f21807a9d2)
+        ;
+
+        
+    
+    
+            marker_e2e71c2b180517f02bd3dab29c2dbe5c.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85d44029ec08cf495619710cf1213a9d = L.marker(
+                [26.916667, 79.716667],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_f85e44b9117594158e5b08d7e9972947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73691ce606b736c8745929e28b1745d4 = $(`<div id="html_73691ce606b736c8745929e28b1745d4" style="width: 100.0%; height: 100.0%;">Lakh Bahosi Bird Sanctuary, Uttar Pradesh</div>`)[0];
+                popup_f85e44b9117594158e5b08d7e9972947.setContent(html_73691ce606b736c8745929e28b1745d4);
+            
+        
+
+        marker_85d44029ec08cf495619710cf1213a9d.bindPopup(popup_f85e44b9117594158e5b08d7e9972947)
+        ;
+
+        
+    
+    
+            marker_85d44029ec08cf495619710cf1213a9d.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9bcfb2e24c201ba318ef866da6c82bc = L.marker(
+                [27.162222, 77.529167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_6731620d35e79995ad5ac0892a772905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0baec2f9b035a0d682da7c149335357c = $(`<div id="html_0baec2f9b035a0d682da7c149335357c" style="width: 100.0%; height: 100.0%;">Keoladeo Ghana Bird Sanctuary (Bharatpur), Rajasthan</div>`)[0];
+                popup_6731620d35e79995ad5ac0892a772905.setContent(html_0baec2f9b035a0d682da7c149335357c);
+            
+        
+
+        marker_b9bcfb2e24c201ba318ef866da6c82bc.bindPopup(popup_6731620d35e79995ad5ac0892a772905)
+        ;
+
+        
+    
+    
+            marker_b9bcfb2e24c201ba318ef866da6c82bc.bindTooltip(
+                `<div>
+                     Rajasthan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a72d82cf0422bc9476736fd53df06910 = L.marker(
+                [27.794167, 74.443611],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_d74af2ab55caf355892c7ec7b58ad080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_356001e2b0cb60d8223e105f418334ad = $(`<div id="html_356001e2b0cb60d8223e105f418334ad" style="width: 100.0%; height: 100.0%;">Tal Chhapar Wildlife Sanctuary, Rajasthan</div>`)[0];
+                popup_d74af2ab55caf355892c7ec7b58ad080.setContent(html_356001e2b0cb60d8223e105f418334ad);
+            
+        
+
+        marker_a72d82cf0422bc9476736fd53df06910.bindPopup(popup_d74af2ab55caf355892c7ec7b58ad080)
+        ;
+
+        
+    
+    
+            marker_a72d82cf0422bc9476736fd53df06910.bindTooltip(
+                `<div>
+                     Rajasthan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d7dfdd7656db9c7884d716078ded830 = L.marker(
+                [19.683889, 85.239167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_0a991686b7b286b31af0bcb1ba214fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee8eb7dbdfdff3710752af4b141cff0e = $(`<div id="html_ee8eb7dbdfdff3710752af4b141cff0e" style="width: 100.0%; height: 100.0%;">Chilika Lake Bird Sanctuary, Odisha</div>`)[0];
+                popup_0a991686b7b286b31af0bcb1ba214fe8.setContent(html_ee8eb7dbdfdff3710752af4b141cff0e);
+            
+        
+
+        marker_7d7dfdd7656db9c7884d716078ded830.bindPopup(popup_0a991686b7b286b31af0bcb1ba214fe8)
+        ;
+
+        
+    
+    
+            marker_7d7dfdd7656db9c7884d716078ded830.bindTooltip(
+                `<div>
+                     Odisha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_143fcf249dfc390155d5efae789709ef = L.marker(
+                [19.690556, 85.344444],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_8cae631bfdb50e880af4f469b3ae152b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d6981d8b8d0038c0f82bcd575af8308 = $(`<div id="html_3d6981d8b8d0038c0f82bcd575af8308" style="width: 100.0%; height: 100.0%;">Nalabana Bird Sanctuary, Odisha</div>`)[0];
+                popup_8cae631bfdb50e880af4f469b3ae152b.setContent(html_3d6981d8b8d0038c0f82bcd575af8308);
+            
+        
+
+        marker_143fcf249dfc390155d5efae789709ef.bindPopup(popup_8cae631bfdb50e880af4f469b3ae152b)
+        ;
+
+        
+    
+    
+            marker_143fcf249dfc390155d5efae789709ef.bindTooltip(
+                `<div>
+                     Odisha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_602243987fae659586fd06a710289103 = L.marker(
+                [12.547222, 79.859444],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_ade5d0e4cdf5c7ae379180a044d06106 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b150127364554eb8be23b308417ac516 = $(`<div id="html_b150127364554eb8be23b308417ac516" style="width: 100.0%; height: 100.0%;">Vedanthangal Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_ade5d0e4cdf5c7ae379180a044d06106.setContent(html_b150127364554eb8be23b308417ac516);
+            
+        
+
+        marker_602243987fae659586fd06a710289103.bindPopup(popup_ade5d0e4cdf5c7ae379180a044d06106)
+        ;
+
+        
+    
+    
+            marker_602243987fae659586fd06a710289103.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0cd7be97f154d16ff5937883047e1b8 = L.marker(
+                [13.568056, 80.186667],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_3077d013112ba989ce43e5212e158f18 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3eaa30f26eb158172d96ca3ecf9f4f3 = $(`<div id="html_d3eaa30f26eb158172d96ca3ecf9f4f3" style="width: 100.0%; height: 100.0%;">Pulicat Lake Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_3077d013112ba989ce43e5212e158f18.setContent(html_d3eaa30f26eb158172d96ca3ecf9f4f3);
+            
+        
+
+        marker_d0cd7be97f154d16ff5937883047e1b8.bindPopup(popup_3077d013112ba989ce43e5212e158f18)
+        ;
+
+        
+    
+    
+            marker_d0cd7be97f154d16ff5937883047e1b8.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4887c4b15a9dc912154134580dd7173b = L.marker(
+                [11.35, 77.666667],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_fb5f99eb24a914576ff3abbcd8ced2ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecd4f8107c90f7c8916b13bacfde3a71 = $(`<div id="html_ecd4f8107c90f7c8916b13bacfde3a71" style="width: 100.0%; height: 100.0%;">Vellode Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_fb5f99eb24a914576ff3abbcd8ced2ff.setContent(html_ecd4f8107c90f7c8916b13bacfde3a71);
+            
+        
+
+        marker_4887c4b15a9dc912154134580dd7173b.bindPopup(popup_fb5f99eb24a914576ff3abbcd8ced2ff)
+        ;
+
+        
+    
+    
+            marker_4887c4b15a9dc912154134580dd7173b.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7916123824070bef26e76922fb74933e = L.marker(
+                [10.958333, 79.133333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_b8732b0a4bd3fd9c6289871f6022a83f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81b82ed117a4274700125fb827d87dd5 = $(`<div id="html_81b82ed117a4274700125fb827d87dd5" style="width: 100.0%; height: 100.0%;">Karaivetti Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_b8732b0a4bd3fd9c6289871f6022a83f.setContent(html_81b82ed117a4274700125fb827d87dd5);
+            
+        
+
+        marker_7916123824070bef26e76922fb74933e.bindPopup(popup_b8732b0a4bd3fd9c6289871f6022a83f)
+        ;
+
+        
+    
+    
+            marker_7916123824070bef26e76922fb74933e.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95125bcb893249c21bfc401977da0bf7 = L.marker(
+                [10.312778, 79.855],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_e273c2dfa447f9763311cd69d022cb86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df9b36f02e42179d18c39e4747d03b33 = $(`<div id="html_df9b36f02e42179d18c39e4747d03b33" style="width: 100.0%; height: 100.0%;">Point Calimere Wildlife and Bird Sanctuary, Tamil Nadu</div>`)[0];
+                popup_e273c2dfa447f9763311cd69d022cb86.setContent(html_df9b36f02e42179d18c39e4747d03b33);
+            
+        
+
+        marker_95125bcb893249c21bfc401977da0bf7.bindPopup(popup_e273c2dfa447f9763311cd69d022cb86)
+        ;
+
+        
+    
+    
+            marker_95125bcb893249c21bfc401977da0bf7.bindTooltip(
+                `<div>
+                     Tamil Nadu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5861391c94db2d465e57aa4e499516b = L.marker(
+                [16.389722, 80.447222],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_509f42c755703b09e652757a93305cc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1c0bdf98b5a290a6b397c920c0e5ab0 = $(`<div id="html_e1c0bdf98b5a290a6b397c920c0e5ab0" style="width: 100.0%; height: 100.0%;">Uppalapadu Bird Sanctuary, Andhra Pradesh</div>`)[0];
+                popup_509f42c755703b09e652757a93305cc5.setContent(html_e1c0bdf98b5a290a6b397c920c0e5ab0);
+            
+        
+
+        marker_f5861391c94db2d465e57aa4e499516b.bindPopup(popup_509f42c755703b09e652757a93305cc5)
+        ;
+
+        
+    
+    
+            marker_f5861391c94db2d465e57aa4e499516b.bindTooltip(
+                `<div>
+                     Andhra Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05c38121f4b6cc23746d6b06fa766a46 = L.marker(
+                [22.455278, 88.362222],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_087d1a891e4188e30292ed4d771a1171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_515fe256ae19531b7f6567c380e4c9d3 = $(`<div id="html_515fe256ae19531b7f6567c380e4c9d3" style="width: 100.0%; height: 100.0%;">Chintamoni Kar Bird Sanctuary, West Bengal</div>`)[0];
+                popup_087d1a891e4188e30292ed4d771a1171.setContent(html_515fe256ae19531b7f6567c380e4c9d3);
+            
+        
+
+        marker_05c38121f4b6cc23746d6b06fa766a46.bindPopup(popup_087d1a891e4188e30292ed4d771a1171)
+        ;
+
+        
+    
+    
+            marker_05c38121f4b6cc23746d6b06fa766a46.bindTooltip(
+                `<div>
+                     West Bengal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13f048d967e05614031ecbc342e95c5d = L.marker(
+                [25.607222, 88.132778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_d06c2c85a699ac5d37d208dfa4ecd2c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1a797d73f62202c6fcfd5e37df3a7e4 = $(`<div id="html_e1a797d73f62202c6fcfd5e37df3a7e4" style="width: 100.0%; height: 100.0%;">Raiganj Wildlife Sanctuary, West Bengal</div>`)[0];
+                popup_d06c2c85a699ac5d37d208dfa4ecd2c0.setContent(html_e1a797d73f62202c6fcfd5e37df3a7e4);
+            
+        
+
+        marker_13f048d967e05614031ecbc342e95c5d.bindPopup(popup_d06c2c85a699ac5d37d208dfa4ecd2c0)
+        ;
+
+        
+    
+    
+            marker_13f048d967e05614031ecbc342e95c5d.bindTooltip(
+                `<div>
+                     West Bengal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5066fc942d4835db9ede17db983012c7 = L.marker(
+                [23.656667, 68.576944],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_5178845cbbb2879e02ba152cda876959 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cf044b19a50d1b58105946ba982c856 = $(`<div id="html_4cf044b19a50d1b58105946ba982c856" style="width: 100.0%; height: 100.0%;">Narayan Sarovar Wildlife Sanctuary, Gujarat</div>`)[0];
+                popup_5178845cbbb2879e02ba152cda876959.setContent(html_4cf044b19a50d1b58105946ba982c856);
+            
+        
+
+        marker_5066fc942d4835db9ede17db983012c7.bindPopup(popup_5178845cbbb2879e02ba152cda876959)
+        ;
+
+        
+    
+    
+            marker_5066fc942d4835db9ede17db983012c7.bindTooltip(
+                `<div>
+                     Gujarat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a078e18c2447c0dce4b1bc4f6bbf83f8 = L.marker(
+                [31.138611, 74.962778],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_a5aa4fdc6550ea4a813340e8461a4246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61ac1bbedca15f08f288b7316331d136 = $(`<div id="html_61ac1bbedca15f08f288b7316331d136" style="width: 100.0%; height: 100.0%;">Harike Wetland and Bird Sanctuary, Punjab</div>`)[0];
+                popup_a5aa4fdc6550ea4a813340e8461a4246.setContent(html_61ac1bbedca15f08f288b7316331d136);
+            
+        
+
+        marker_a078e18c2447c0dce4b1bc4f6bbf83f8.bindPopup(popup_a5aa4fdc6550ea4a813340e8461a4246)
+        ;
+
+        
+    
+    
+            marker_a078e18c2447c0dce4b1bc4f6bbf83f8.bindTooltip(
+                `<div>
+                     Punjab
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c380f13716df796c6e1fa3783aad30e = L.marker(
+                [31.925, 76.058333],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_42df27671bb0ff0edca12f9e49440472 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51b78ddd3f37ca2f2546cc5a029cfc6e = $(`<div id="html_51b78ddd3f37ca2f2546cc5a029cfc6e" style="width: 100.0%; height: 100.0%;">Pong Dam Wetland, Himachal Pradesh</div>`)[0];
+                popup_42df27671bb0ff0edca12f9e49440472.setContent(html_51b78ddd3f37ca2f2546cc5a029cfc6e);
+            
+        
+
+        marker_0c380f13716df796c6e1fa3783aad30e.bindPopup(popup_42df27671bb0ff0edca12f9e49440472)
+        ;
+
+        
+    
+    
+            marker_0c380f13716df796c6e1fa3783aad30e.bindTooltip(
+                `<div>
+                     Himachal Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e031450932914892f8e4c4a0ebecf3d = L.marker(
+                [31.020278, 76.521111],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_5e7a84c4c6f50d10c45f1bd86474589e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8058770826afe45f3aeb95ce710025b3 = $(`<div id="html_8058770826afe45f3aeb95ce710025b3" style="width: 100.0%; height: 100.0%;">Ropar Wetland, Punjab</div>`)[0];
+                popup_5e7a84c4c6f50d10c45f1bd86474589e.setContent(html_8058770826afe45f3aeb95ce710025b3);
+            
+        
+
+        marker_8e031450932914892f8e4c4a0ebecf3d.bindPopup(popup_5e7a84c4c6f50d10c45f1bd86474589e)
+        ;
+
+        
+    
+    
+            marker_8e031450932914892f8e4c4a0ebecf3d.bindTooltip(
+                `<div>
+                     Punjab
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65352a5364008f7bb520afe17899b237 = L.marker(
+                [26.779167, 79.094167],
+                {}
+            ).addTo(map_de551ccd2d2734b67b903b173346992e);
+        
+    
+        var popup_6a663bc61b288b821e7b1e7b73babff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e24eaef5c9e815f892eedd7e1a84af46 = $(`<div id="html_e24eaef5c9e815f892eedd7e1a84af46" style="width: 100.0%; height: 100.0%;">Sarsai Nawar Wetland, Uttar Pradesh</div>`)[0];
+                popup_6a663bc61b288b821e7b1e7b73babff2.setContent(html_e24eaef5c9e815f892eedd7e1a84af46);
+            
+        
+
+        marker_65352a5364008f7bb520afe17899b237.bindPopup(popup_6a663bc61b288b821e7b1e7b73babff2)
+        ;
+
+        
+    
+    
+            marker_65352a5364008f7bb520afe17899b237.bindTooltip(
+                `<div>
+                     Uttar Pradesh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
